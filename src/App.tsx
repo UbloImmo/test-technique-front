@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import "./index.css";
-import { Lots } from "./feature";
+import { Units } from "./feature";
 
 /**
  * Renders the main application component.
@@ -10,7 +10,7 @@ import { Lots } from "./feature";
 export function App() {
   return (
     <Container>
-     <Lots />
+     <Units />
     </Container>
   );
 }

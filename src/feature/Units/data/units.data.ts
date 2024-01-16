@@ -4,9 +4,12 @@ import background3 from '../../../assets/background-03.png';
 import background4 from '../../../assets/background-04.png'
 
 /**
- * Liste des lots à utiliser pour compléter la user story
+ * Mock unit list data.
+ * @template getUnits {import("../api/units.api.ts").getUnits}
+ *
+ * **Do not import directly into your component, use {@link getUnits} instead.**
  */
-export const lots = [  
+export const units = [
     {
         id: "7247aa97-3a86-4442-a5cb-002994d910d4",
         image: background1,
