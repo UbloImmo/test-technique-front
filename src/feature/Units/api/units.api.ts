@@ -1,4 +1,9 @@
 import { units } from "./units.data";
+import { delay } from "@ubloimmo/uikit";
+
+/**
+ * TODO: La fonction exportée doit être typée pour indiquer à typescript qu'elle retourne une liste d'objets de type `Unit`.
+ */
 
 /**
  * Simulates fetching the units from the API.
@@ -9,8 +14,6 @@ import { units } from "./units.data";
  */
 export const getUnits = async () => {
   // timeout to simulate API call
-  await new Promise((resolve) => {
-    setTimeout(resolve, 250);
-  });
+  await delay(250);
   return units;
 };

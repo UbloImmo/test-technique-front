@@ -19,10 +19,10 @@ export const units = [
     state: "available",
     buildingName: "A",
     stairsName: "A",
-    surface: 52,
+    surface: 68,
     floorPlan: "T3",
     computedRent: {
-      rent: 48000,
+      rent: 83445,
     },
     address: {
       city: {
@@ -51,10 +51,10 @@ export const units = [
     state: "unavailable",
     buildingName: "A",
     stairsName: "A",
-    surface: 52,
-    floorPlan: "T3",
+    surface: 34,
+    floorPlan: "T2",
     computedRent: {
-      rent: 52000,
+      rent: 48000,
     },
     address: {
       city: {
@@ -84,9 +84,9 @@ export const units = [
     buildingName: "A",
     stairsName: "A",
     surface: 52,
-    floorPlan: "T3",
+    floorPlan: "T2",
     computedRent: {
-      rent: 120050,
+      rent: 52000,
     },
     address: {
       city: {
@@ -115,10 +115,10 @@ export const units = [
     state: "available",
     buildingName: "A",
     stairsName: "A",
-    surface: 52,
-    floorPlan: "T3",
+    surface: 82,
+    floorPlan: "T4",
     computedRent: {
-      rent: 84345,
+      rent: 120050,
     },
     address: {
       city: {
